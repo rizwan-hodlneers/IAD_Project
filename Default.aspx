@@ -52,10 +52,6 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label for="txtCustomerId">Customer ID:</label>
-                    <input type="text" id="txtCustomerId" class="form-control" runat="server" />
-                </div>
-                <div class="form-group">
                     <label for="txtCustomerName">Customer Name:</label>
                     <input type="text" id="txtCustomerName" class="form-control" runat="server" />
                 </div>
@@ -95,14 +91,10 @@
       </div>
       <div class="modal-body">
         <form id="productForm">
-          <div class="form-group">
-            <label for="productId">Product ID:</label>
-            <input type="text" class="form-control" id="productId" placeholder="Enter Product ID" />
-          </div>
-          <div class="form-group">
-            <label for="productLineId">Product Line ID:</label>
-            <input type="text" class="form-control" id="productLineId" placeholder="Enter Product Line ID" />
-          </div>
+            <div class="form-group">
+              <label for="productName">Product Name:</label>
+              <input type="text" class="form-control" id="productName" placeholder="Enter Product Name" />
+            </div>
           <div class="form-group">
             <label for="productDescription">Product Description:</label>
             <input type="text" class="form-control" id="productDescription" placeholder="Enter Product Description" />
@@ -137,13 +129,13 @@
       <div class="modal-body">
         <form id="orderProductForm">
           <div class="form-group">
-            <label for="orderId">Order ID:</label>
-            <input type="text" class="form-control" id="orderId" placeholder="Enter Order ID" />
-          </div>
-          <div class="form-group">
             <label for="productId">Product ID:</label>
             <input type="text" class="form-control" id="productOrderId" placeholder="Enter Product ID" />
           </div>
+            <div class="form-group">
+              <label for="productName">Product Name:</label>
+              <input type="text" class="form-control" id="productOrderName" placeholder="Enter Product Name" />
+            </div>
           <div class="form-group">
             <label for="quantity">Quantity:</label>
             <input type="text" class="form-control" id="quantity" placeholder="Enter Quantity" />
